@@ -1,0 +1,280 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+ul,li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.header-wrap{
+	height: 189px;
+}
+.header{
+	height: 100%;
+	width: 1200px;
+	background-color: white;
+	margin: 0 auto;
+}
+.header p {
+	float: right;
+}
+.header p a{
+	color: black;
+	display: inline-block;
+	margin-right: 30px;
+}
+.header div{
+	margin-top: 40px;
+	float: left;
+	width: 1200px;
+	height: 65px;
+}
+.header1 {
+	float: left;
+}
+.header div form{
+	margin-left: 180px;
+	width: 600px;
+	height: 43px;
+	border: 1px solid black;
+	float: left;
+	margin-top: 20px;
+}
+.header form a{
+	display: block;
+	
+}
+.header div input{
+	width: 550px;
+	height: 42px;
+	border: none;
+	float: left;
+}
+.header2{
+	float: right;
+	margin-top:36px;
+}
+.header ul  {
+	display: inline-block;
+	width: 1200px;
+	margin-top: 30px;
+}
+.header3 {
+	float: left;
+}
+.header ul li {
+	text-align: center;
+	float: left;
+	display: inline-block;
+	margin-left: 20px;
+}
+.header ul li a{
+	display: block;
+	width:70px;
+	height:32px;
+	text-align: center;
+	color: black;
+}
+.header ul li a:hover{
+	color: green;
+	border-bottom: 2px solid green;
+}
+.big{
+	width: 100%;
+	height: 670px;
+	background-image: url(img/banner.png);
+	background-repeat:no-repeat;
+	background-position: 50% 50%;
+	
+}
+.fix li{
+	position:relative;
+	margin-left: 8px;
+	width: 60px;
+	height: 115px;
+	border-bottom: 1px solid aliceblue;
+}
+.fix li img{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+.fix li:last-child{
+	border-bottom: none;
+}
+.nav-wrap{
+	height: 1015px;
+}
+.nav{
+	width: 1200px;
+	height: 1015px;
+	margin: 0 auto;
+	background-color: white;
+}
+.nav1{
+	display: inline-block;
+	width: 1200px;
+	height: 63px;
+}
+.nav1 a{
+	margin-top: 20px;
+	display: inline-block;
+	color: #cecece;
+}
+.little{
+	float: right;
+}
+.nav4{
+	border: 1px solid black;
+	border-bottom: none;
+	line-height: 45px;
+}
+.nav4 li:first-child{
+	background-color: #e5e5e5;
+}
+.nav4 li a{
+	color:  #cecece;
+}
+.nav4 li {
+	text-align: center;
+	display: inline-block;
+	width: 100px;
+	line-height: 45px;
+}
+.nav4 li a:hover{
+	color: green;
+}
+.right{
+	float: right;
+}
+.nav3{
+	margin-top: 45px;
+	width: 1200px;
+	height: 670px;
+	background-color: white;
+}
+.nav3 li{
+	position: relative;
+	display: inline;
+	width: 274px;
+	height: 298px;
+	border:1px solid black;
+	float: left;
+	margin-left:20px;
+	margin-top: 20px;
+}
+.nav3 li img {
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+.nav3 span{
+	float: left;
+	border: 1px solid black;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.nav3 li div{
+	opacity:0.9; 
+	background-color: #4c4c4c;
+	color: white;
+	width: 274px;
+	height: 52px;
+	position: absolute;
+	text-align: center;
+	font-size: 18px;
+	bottom: 0px;
+}
+.nav3 li .hide{
+	opacity:0.9; 
+	position: absolute;
+	width: 274px;
+	height:297px;
+	background-color: #4c4c4c;
+	color: white;
+	text-align: center;
+	bottom: 0px;
+	font-size: 22px;
+	display: none;
+}
+.nav3 span div{
+	opacity:0.9; 
+	background-color: #4c4c4c;
+	color: white;
+	width: 274px;
+	height: 52px;
+	position: absolute;
+	text-align: center;
+	font-size: 18px;
+	bottom: 0px;
+}
+.nav3 span .hide{
+	opacity:0.9; 
+	position: absolute;
+	width: 274px;
+	height:297px;
+	background-color: #4c4c4c;
+	color: white;
+	text-align: center;
+	bottom: 0px;
+	display: none;
+	font-size: 22px;
+}
+.nav3 span:hover div{
+	display: none;
+}
+.nav3 span:hover .hide{
+	display: block;
+}
+.nav3 li:hover div{
+	display: none;
+}
+.nav3 li:hover .hide{
+	display: block;
+}
+.next-wrap{
+	height: 100px;
+	background-color: #f5f5f5;
+}
+.next{
+	width: 100px;
+	width: 1200px;
+	background-color: #f5f5f5;
+	margin: 0 auto;
+}
+.next li{
+	display: inline-block;
+	width: 286px;
+	height: 46px;
+	border-right:1px solid black;
+	margin-top:25px;
+}
+.next li:last-child{
+	border-right: none;
+}
+.next li img{
+	margin-left: 35px;
+	float: left;
+}
+.next div {
+	margin-left: 23px;
+	float: left;
+}
+.di-wrap{
+	height: 100px;
+	background-color: black;
+}
+.di{
+	height:100%;
+}
+.di a{
+	color: white;
+}
+.di p{
+	text-align: center;
+	color: white;
+}
